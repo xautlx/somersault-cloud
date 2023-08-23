@@ -1,0 +1,12 @@
+[submodule "somersault-cloud-ui"]
+	path = somersault-cloud-ui
+	url = https://gitee.com/xautlx/somersault-cloud-ui.git
+[submodule "somersault-cloud-devops"]
+	path = somersault-cloud-devops
+	url = https://gitee.com/xautlx/somersault-cloud-devops.git
+[submodule "somersault-cloud-service"]
+	path = somersault-cloud-service
+	url = https://gitee.com/xautlx/somersault-cloud-service.git
+[submodule "somersault-cloud-client"]
+	path = somersault-cloud-client
+	url = https://gitee.com/xautlx/somersault-cloud-client.git
