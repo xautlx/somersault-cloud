@@ -10,16 +10,19 @@
 
 ## 项目主站 
 
-* IPv6访问： [http://tun6.entdiy.xyz:8888/docs/](http://tun6.entdiy.xyz:8888/docs/) 
-* IPv4访问： [http://124.71.2.242:8888/docs/](http://124.71.2.242:8888/docs/) 
+* 文档站点： **[http://doc.entdiy.xyz:8800](http://doc.entdiy.xyz:8800)**
+* 演示站点： **[http://poc.entdiy.xyz:8888](http://poc.entdiy.xyz:8888)**
 
-* [在线体验](http://124.71.2.242:8888/docs/demo/intro/) - 在线体验地址访问链接信息列表
-* [截图展示](http://124.71.2.242:8888/docs/demo/screenshot/) - 应用主要界面截图展示了解项目全貌
-* [技术资料](http://124.71.2.242:8888/docs/project/infra/) - 技术全景/项目介绍/一键部署指南
-* [开源说明](http://124.71.2.242:8888/docs/tech/intro/) - 关于开源项目的内容和运营规划介绍
-* [项目定制](http://124.71.2.242:8888/docs/tech/tool/) - 基于通用开源项目生成开箱即用的定制项目
-* [示例项目](http://124.71.2.242:8888/docs/tech/iot/) - 基于开发框架的"远程乌龟投喂"娱乐项目介绍
-* [远程开发](http://124.71.2.242:8888/docs/guide/remote/) - 基于开源项目经验打造丝滑的远程开发体验分享
+> 请注意文档和演示站点出于分离配置考虑，域名和端口均不同！由于IPv6直连访问受限运营商屏蔽80和443等标准端口，因此暂时使用非标端口访问，敬请理解。
+
+主要资料链接：
+* [在线体验](http://doc.entdiy.xyz:8800/demo/intro/) - 在线体验地址访问链接信息列表
+* [截图展示](http://doc.entdiy.xyz:8800/demo/screenshot/) - 应用主要界面截图展示了解项目全貌
+* [技术资料](http://doc.entdiy.xyz:8800/project/infra/) - 技术全景/项目介绍/一键部署指南
+* [开源说明](http://doc.entdiy.xyz:8800/tech/intro/) - 关于开源项目的内容和运营规划介绍
+* [项目定制](http://doc.entdiy.xyz:8800/tech/tool/) - 基于通用开源项目生成开箱即用的定制项目
+* [示例项目](http://doc.entdiy.xyz:8800/tech/iot/) - 基于开发框架的"远程乌龟投喂"娱乐项目介绍
+* [远程开发](http://doc.entdiy.xyz:8800/guide/remote/) - 基于开源项目经验打造丝滑的远程开发体验分享
 
 # 技术全景概览
 
@@ -204,6 +207,13 @@
        <a href="https://gitee.com/xautlx/somersault-cloud-devops/blob/master/deploy/ansible-apps/roles/keepalived">ansible-openresty-keepalived</a><br/>
        <a href="https://gitee.com/xautlx/somersault-cloud-devops/blob/master/deploy/ansible-mysql/roles/keepalived">ansible-mysql-keepalived</a>
     </td>
+  </tr>
+  <tr>
+    <td rowspan="1">信创国产化</td>
+    <td>东方通Tongweb</td>
+    <td>7.0.E.6_P4</td>
+    <td>国产Web容器组件</td>
+    <td><a href="https://gitee.com/xautlx/somersault-cloud-service/blob/master/somersault-cloud-dependencies/pom.xml" >pom.xml</a></td>
   </tr>
   <tr>
     <td rowspan="11">监控管理</td>
