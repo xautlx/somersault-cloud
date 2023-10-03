@@ -80,10 +80,16 @@
     <td>移动端框架</td>
   </tr>
   <tr>
-    <td rowspan="17">后端依赖</td>
+    <td rowspan="18">后端依赖</td>
+    <td>jdk</td>
+    <td>11</td>
+    <td>JDK</td>
+    <td rowspan="2"><a href="https://gitee.com/xautlx/somersault-cloud-service/blob/master/somersault-cloud-dependencies/docker/Dockerfile">Dockerfile</a></td>
+  </tr>
+  <tr>
     <td>spring-boot</td>
     <td>2.7.11</td>
-   <td>Spring Boot框架</td>
+    <td>Spring Boot框架</td>
     <td rowspan="8"><a href="https://gitee.com/xautlx/somersault-cloud-service/blob/master/somersault-cloud-dependencies/pom.xml" >pom.xml</a></td>
   </tr>
   <tr>
@@ -343,16 +349,16 @@
     <td>前端构建工具</td>
   </tr>
   <tr>
-    <td rowspan="6">安装部署</td>
-    <td>centos</td>
-    <td>7.9</td>
-    <td>部署操作系统</td>
-    <td>-</td>
+    <td rowspan="5">安装部署</td>
+    <td>ansible</td>
+    <td>2.15.4</td>
+    <td>自动化运维工具</td>
+    <td><a href="https://gitee.com/xautlx/somersault-cloud-devops/blob/master/ansible" >ansible install</a></td>
   </tr>
   <tr>
-    <td>ansible</td>
-    <td>2.9.11/2.9.27</td>
-    <td>自动化运维工具</td>
+    <td>python</td>
+    <td>3.9.18</td>
+    <td>Python依赖</td>
     <td><a href="https://gitee.com/xautlx/somersault-cloud-devops/blob/master/ansible" >ansible install</a></td>
   </tr>
   <tr>
@@ -368,12 +374,6 @@
     <td>docker compose</td>
     <td>24.0.2</td>
     <td>容器编排运行</td>
-  </tr>
-  <tr>
-    <td>jdk</td>
-    <td>11</td>
-    <td>Java微服务容器内JDK</td>
-    <td rowspan="2"><a href="https://gitee.com/xautlx/somersault-cloud-service/blob/master/somersault-cloud-dependencies/docker/Dockerfile">Dockerfile</a></td>
   </tr>
   <tr>
     <td>arthas</td>
