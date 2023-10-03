@@ -3,12 +3,12 @@
 * 从开发构建环境搭建到交付部署运维的完整DevOps过程POC
 * 基于Vue和Spring Cloud前后端微服务分离架构开发框架
 * 基于Ansible的开发构建环境搭建及生产交付的一键安装部署脚本
+* 信创国产化支持：已适配TongWeb 7，统信UOS V20 amd64，银河麒麟 V10 amd64，CentOS 7.9 arm64
 * 基于开发框架的树莓派Python+MQTT的IoT物联网"远程乌龟投喂"娱乐项目
 
-除了单纯的写代码，如果你希望有能力借助一套Java流行开发框架，从零开始搭建一整套研发环境，运用DevOps理念进行研发构建和管理，
-专业高效的进行项目交付， 快速成长为开发Leader，欢迎关注本项目。
+除了单纯的写代码，如果你希望有能力借助一套Java流行开发框架，从零开始搭建一整套研发环境，运用DevOps理念进行研发构建和管理， 专业高效的进行项目交付， 快速成长为开发Leader，欢迎关注本项目。
 
-## 项目主站 
+## 项目主站
 
 * 文档站点： **[http://doc.entdiy.xyz:8800](http://doc.entdiy.xyz:8800)**
 * 演示站点： **[http://poc.entdiy.xyz:8888](http://poc.entdiy.xyz:8888)**
@@ -16,6 +16,7 @@
 > 请注意文档和演示站点出于分离配置考虑，域名和端口均不同！由于IPv6直连访问受限运营商屏蔽80和443等标准端口，因此暂时使用非标端口访问，敬请理解。
 
 主要资料链接：
+
 * [在线体验](http://doc.entdiy.xyz:8800/demo/intro/) - 在线体验地址访问链接信息列表
 * [截图展示](http://doc.entdiy.xyz:8800/demo/screenshot/) - 应用主要界面截图展示了解项目全貌
 * [技术资料](http://doc.entdiy.xyz:8800/project/infra/) - 技术全景/项目介绍/一键部署指南
@@ -29,6 +30,17 @@
 ## 部署全景图
 
 ![DeploymentArch](./images/DeploymentArch.drawio.png)
+
+## 信创国产化支持
+
+| 分类    | 组件或服务         | 已适配                                                                 |
+|-------|---------------|---------------------------------------------------------------------|
+| CPU架构 | amd64/x86_64  | 统信UOS V20, 银河麒麟 V10, CentOS V7.9                                    |
+|       | arm64/aarch64 | CentOS-7-aarch64-Minimal-2009.iso (QEMU 7.0 模拟安装运行)                                       |
+| 操作系统  | 统信UOS         | uos-server-20-1060e-amd64.iso                                       |
+|       | 银河麒麟          | Kylin-Server-10-SP1-Release-Build20-20210518-x86_64.iso             |
+|       | CentOS        | CentOS-7-x86_64-Minimal-2009.iso, CentOS-7-aarch64-Minimal-2009.iso |
+| Web容器 | 东方通TongWeb    | TongWeb V7.0_70E6P4A01                                              |
 
 ## 主要技术组件
 
@@ -339,7 +351,7 @@
   </tr>
   <tr>
     <td>ansible</td>
-    <td>2.9.27</td>
+    <td>2.9.11/2.9.27</td>
     <td>自动化运维工具</td>
     <td><a href="https://gitee.com/xautlx/somersault-cloud-devops/blob/master/ansible" >ansible install</a></td>
   </tr>
@@ -401,11 +413,10 @@
 ## 依赖项目说明
 
 本项目侧重点为覆盖整个开发到交付过程实例，开发框架本身主要是为了体现完整交付案例，因此somersault-cloud-service和somersault-cloud-ui主体代码来源于：
-[ruoyi-vue](https://gitee.com/y_project/RuoYi) 
+[ruoyi-vue](https://gitee.com/y_project/RuoYi)
 -> [ruoyi-vue-pro](https://gitee.com/zhijiantianya/ruoyi-vue-pro)
--> [yudao-cloud](https://gitee.com/zhijiantianya/yudao-cloud) 
-本项目在这些项目基础上做了必要的按需调整和扩展，文档会对相关扩展做必要的介绍说明；
-具体的前后端开发详细技术资料和示例建议读者可访问上述各引用项目站点做进一步了解详情。 感谢上述开源项目和作者。
+-> [yudao-cloud](https://gitee.com/zhijiantianya/yudao-cloud)
+本项目在这些项目基础上做了必要的按需调整和扩展，文档会对相关扩展做必要的介绍说明； 具体的前后端开发详细技术资料和示例建议读者可访问上述各引用项目站点做进一步了解详情。 感谢上述开源项目和作者。
 
 
 
