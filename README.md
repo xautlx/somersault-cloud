@@ -84,7 +84,7 @@
     <td>jdk</td>
     <td>11</td>
     <td>JDK</td>
-    <td rowspan="2"><a href="https://gitee.com/xautlx/somersault-cloud-service/blob/master/somersault-cloud-dependencies/docker/Dockerfile">Dockerfile</a></td>
+    <td rowspan="1"><a href="https://gitee.com/xautlx/somersault-cloud-service/blob/master/somersault-cloud-dependencies/docker/Dockerfile">Dockerfile</a></td>
   </tr>
   <tr>
     <td>spring-boot</td>
@@ -234,7 +234,7 @@
     <td><a href="https://gitee.com/xautlx/somersault-cloud-service/blob/master/somersault-cloud-dependencies/pom.xml" >pom.xml</a></td>
   </tr>
   <tr>
-    <td rowspan="11">监控管理</td>
+    <td rowspan="12">监控管理</td>
     <td>spring-boot-admin</td>
     <td>2.7.10</td>
     <td>SpringBoot应用监控</td>
@@ -317,6 +317,12 @@
    </td>
   </tr>
   <tr>
+    <td>arthas</td>
+    <td>3.6.9</td>
+    <td>预留容器内调试工具</td>
+    <td><a href="https://gitee.com/xautlx/somersault-cloud-devops/blob/master/tools/ansible-tools/roles/jenkins/templates/Dockerfile">Dockerfile</a></td>
+  </tr>
+  <tr>
     <td rowspan="5">研发构建</td>
     <td>jenkins</td>
     <td>2.387.2</td>
@@ -349,7 +355,7 @@
     <td>前端构建工具</td>
   </tr>
   <tr>
-    <td rowspan="5">安装部署</td>
+    <td rowspan="4">安装部署</td>
     <td>ansible</td>
     <td>2.15.4</td>
     <td>自动化运维工具</td>
@@ -374,11 +380,6 @@
     <td>docker compose</td>
     <td>24.0.2</td>
     <td>容器编排运行</td>
-  </tr>
-  <tr>
-    <td>arthas</td>
-    <td>3.6.9</td>
-    <td>预留容器内调试工具</td>
   </tr>
   <tr>
     <td rowspan="5">远程开发</td>
